@@ -1,0 +1,12 @@
+2025-06-19 01:28:00,685 DEBUG Split Learning Scheme: Overall Cutting_layer 4/13
+2025-06-19 01:28:04,830 DEBUG Namespace(arch='vgg11_bn_sgm', cutlayer=4, batch_size=128, filename='pretrain_False_lambd_16_noise_0.01_epoch_240_bottleneck_noRELU_C8S1_log_1_ATstrength_0.3_lr_0.05_varthres_0.125', folder='saves/cifar10/SCA_new_infocons_sgm_lg1_thre0.125', num_client=1, num_epochs=240, learning_rate=0.05, lambd=16.0, dataset_portion=1.0, client_sample_ratio=1.0, noniid=1.0, local_lr=-1.0, dataset='cifar10', scheme='V2_epoch', regularization='Gaussian_kl', regularization_strength=0.01, var_threshold=0.125, AT_regularization='SCA_new', AT_regularization_strength=0.3, log_entropy=1.0, ssim_threshold=0.5, gan_AE_type='res_normN4C64', gan_loss_type='SSIM', bottleneck_option='noRELU_C8S1', optimize_computation=1, decoder_sync=False, load_from_checkpoint=False, load_from_checkpoint_server=False, transfer_source_task='cifar100', finetune_freeze_bn=False, save_more_checkpoints=False, initialize_different=False, random_seed=125)
+2025-06-19 01:28:06,897 DEBUG Model's smashed-data size is torch.Size([1, 8, 8, 8])
+2025-06-19 01:28:07,046 DEBUG Real Train Phase: done by all clients, for total 240 epochs
+2025-06-19 01:28:07,047 DEBUG GAN training interval N (once every N step) is set to 1!
+2025-06-19 01:28:07,048 DEBUG Train in V2_epoch style
+2025-06-19 01:28:07,302 DEBUG log--[1/240][0/391][client-0] train loss: 0.0000 cross-entropy loss: 2.3268
+2025-06-19 01:28:17,188 DEBUG log--[1/240][390/391][client-0] train loss: 0.0000 cross-entropy loss: 2.3213
+2025-06-19 01:28:17,383 DEBUG Epoch 0	Test (client-0):	Loss 2.3128 (2.3128)	Prec@1 7.812 (7.812)
+2025-06-19 01:28:17,814 DEBUG Epoch 50	Test (client-0):	Loss 2.3040 (2.3041)	Prec@1 17.188 (11.458)
+2025-06-19 01:28:18,097 DEBUG  * Prec@1 11.190
+2025-06-19 01:28:21,995 DEBUG the mean of mutal infor is:(-5.270), the est mean of mutal infor is:(-3.484)

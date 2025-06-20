@@ -1,0 +1,21 @@
+2025-06-19 01:11:06,192 DEBUG Split Learning Scheme: Overall Cutting_layer 4/13
+2025-06-19 01:11:12,313 DEBUG Namespace(arch='vgg11_bn_sgm', cutlayer=4, batch_size=128, filename='pretrain_False_lambd_0_noise_0.05_epoch_240_bottleneck_noRELU_C8S1_log_1_ATstrength_0.3_lr_0.05_varthres_0.125', folder='saves/cifar10/SCA_new_infocons_sgm_lg1_thre0.125', num_client=1, num_epochs=240, learning_rate=0.05, lambd=0.0, dataset_portion=1.0, client_sample_ratio=1.0, noniid=1.0, local_lr=-1.0, dataset='cifar10', scheme='V2_epoch', regularization='Gaussian_kl', regularization_strength=0.05, var_threshold=0.125, AT_regularization='SCA_new', AT_regularization_strength=0.3, log_entropy=1.0, ssim_threshold=0.5, gan_AE_type='res_normN4C64', gan_loss_type='SSIM', bottleneck_option='noRELU_C8S1', optimize_computation=1, decoder_sync=False, load_from_checkpoint=False, load_from_checkpoint_server=False, transfer_source_task='cifar100', finetune_freeze_bn=False, save_more_checkpoints=False, initialize_different=False, random_seed=125)
+2025-06-19 01:11:12,571 DEBUG Model's smashed-data size is torch.Size([1, 8, 8, 8])
+2025-06-19 01:11:12,717 DEBUG Real Train Phase: done by all clients, for total 240 epochs
+2025-06-19 01:11:12,717 DEBUG GAN training interval N (once every N step) is set to 1!
+2025-06-19 01:11:12,717 DEBUG Train in V2_epoch style
+2025-06-19 01:11:13,009 DEBUG log--[1/240][0/391][client-0] train loss: 0.0000 cross-entropy loss: 2.3266
+2025-06-19 01:11:22,500 DEBUG log--[1/240][390/391][client-0] train loss: 0.0000 cross-entropy loss: 2.3214
+2025-06-19 01:11:22,721 DEBUG Epoch 0	Test (client-0):	Loss 2.3125 (2.3125)	Prec@1 9.375 (9.375)
+2025-06-19 01:11:23,135 DEBUG Epoch 50	Test (client-0):	Loss 2.3040 (2.3040)	Prec@1 17.188 (11.244)
+2025-06-19 01:11:23,398 DEBUG  * Prec@1 11.040
+2025-06-19 01:11:27,125 DEBUG the mean of mutal infor is:(-4.588), the est mean of mutal infor is:(-3.392)
+2025-06-19 01:13:22,253 DEBUG Split Learning Scheme: Overall Cutting_layer 4/13
+2025-06-20 01:46:54,327 DEBUG Split Learning Scheme: Overall Cutting_layer 4/13
+2025-06-20 01:50:55,165 DEBUG Split Learning Scheme: Overall Cutting_layer 4/13
+2025-06-20 01:55:05,599 DEBUG Split Learning Scheme: Overall Cutting_layer 4/13
+2025-06-20 01:55:10,499 DEBUG Model's smashed-data size is torch.Size([1, 8, 8, 8])
+2025-06-20 01:55:11,664 DEBUG Epoch 0	Test (client-0):	Loss 2.3115 (2.3115)	Prec@1 6.250 (6.250)
+2025-06-20 01:55:12,151 DEBUG Epoch 50	Test (client-0):	Loss 2.3065 (2.3041)	Prec@1 10.156 (11.566)
+2025-06-20 01:55:12,474 DEBUG  * Prec@1 11.350
+2025-06-20 01:55:12,474 DEBUG Best Average Validation Accuracy is 11.35
